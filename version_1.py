@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 import dlib 
 from scipy.spatial import distance as dist
-
+# modules
 cap = cv2.VideoCapture(0) 
 
 detector = dlib.get_frontal_face_detector()
